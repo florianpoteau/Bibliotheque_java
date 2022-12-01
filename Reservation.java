@@ -40,7 +40,9 @@ public class Reservation {
 
 	    Calendar calendar = Calendar.getInstance();
 	    calendar.setTimeInMillis(new Date().getTime());
+	    
 	    // 2 mois d'expiration
+	    
 	    calendar.add(calendar.MONTH, 2);  
 	    System.out.println("Le livre arrivera a expiration dans 2 mois le: "+ new Date(calendar.getTime().getTime()));
 

@@ -25,7 +25,7 @@ public class Main {
 		
 
 	    System.out.println("Bienvenue");
-	    System.out.println("Pour voir les livres disponibles, veuillez tapez un caractère");
+	    System.out.println("Pour voir les livres disponibles, tapez un caractère");
 	    
 //	    AFFICHAGE DES LIVRES DEPUIS LE CSV
 	    
