@@ -1,21 +1,24 @@
 package Livre.Bibliotheque_java;
 
-import java.util.Date;
 import java.util.Scanner;
-import java.util.concurrent.locks.Condition;
-
-import javax.swing.JFrame;
-
 import java.io.IOException;
-import java.text.DateFormat;
 
 public class Main {
+	
+	/**
+	 * @author florian poteau
+	 */
+	
+	/**
+	 * 
+	 * @param args
+	 * @throws IOException
+	 */
 	
 	
 	public static void main(String[] args) throws IOException {
 		
 //		BIENVENUE
-		
 		
 		Bibliotheque bibliotheque = new Bibliotheque();
 		bibliotheque.list();

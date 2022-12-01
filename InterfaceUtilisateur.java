@@ -3,11 +3,12 @@ package Livre.Bibliotheque_java;
 import java.awt.Color;
 import java.awt.event.*;
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class InterfaceUtilisateur {
+public class InterfaceUtilisateur implements ActionListener {
 
 	public static void main(String[] args) {
 		
@@ -46,6 +47,11 @@ public class InterfaceUtilisateur {
 
         frame.getContentPane().add(pannel);
         frame.setVisible(true);
+	}
 
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 }

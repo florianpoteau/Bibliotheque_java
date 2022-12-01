@@ -1,7 +1,4 @@
 package Livre.Bibliotheque_java;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
@@ -37,11 +34,7 @@ public class Reservation {
 	 * @return the date
 	 */
 	public int getDate() {
-//		Date aujourdhui = new Date();
-//	    DateFormat shortDateFormat = DateFormat.getDateTimeInstance(
-//	    DateFormat.SHORT,
-//	    DateFormat.SHORT);
-//	    System.out.println(aujourdhui);
+
 		Calendar calendar1 = Calendar.getInstance();
 		calendar1.setTimeInMillis(date);
 

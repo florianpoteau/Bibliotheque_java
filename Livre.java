@@ -140,5 +140,4 @@ public void setNbrpage(int nbrpage) {
 	this.nbrpage = nbrpage;
 }
 
-
 }

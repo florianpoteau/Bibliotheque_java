@@ -171,8 +171,4 @@ FileWriter file = null;
 		this.v6 = v6;
 	}
 
-
-	
 	}
-
-

@@ -2,6 +2,7 @@ package Livre.Bibliotheque_java;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -31,26 +32,21 @@ public class CsvImport {
 	    catch(IOException e)
 	    {
 	      e.printStackTrace();
+	      
 	    }
 		
-		
-		
-
-//	String pathFile= "Book.csv";
-//	String line =" ";
-//	try {
-//		BufferedReader br = new BufferedReader(new FileReader(pathFile));
-//		while((line =br.readLine())!=null)
-//			System.out.println(line);
-//		System.out.println("File Found");
-//	}
-//	
-//	catch(FileNotFoundException e) {
-//		e.printStackTrace();
-//		System.out.println("File not Found");
-//	}catch (IOException e) {
-//		e.printStackTrace();
-//	}
+	String pathFile= "Book.csv";
+	String line =" ";
+	try {
+		BufferedReader br = new BufferedReader(new FileReader(pathFile));
+	while((line =br.readLine())!=null)
+			System.out.println(line);
 	}
 	
+	catch(FileNotFoundException e) {
+		e.printStackTrace();
+	}catch (IOException e) {
+		e.printStackTrace();
+	}
+	}
 }
